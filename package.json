@@ -1,6 +1,6 @@
 {
     "name": "@reslys/base64inbyte",
-    "author": "Resly Suniar"
+    "author": "Resly Suniar",
     "version": "1.0.0",
     "description": "Get base64 size in byte",
     "license": "MIT",
