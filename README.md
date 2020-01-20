@@ -13,7 +13,7 @@ npm install @reslys/base64inbyte --save-dev
 
 ## Usage
 ```sh
-import { formatBytes, b64inByte } from 'base64inbyte'
+const { formatBytes } = require('@reslys/base64inbyte')
 
 const fileSize = b64inByte(yourBase64)
 console.log(fileSize) // 3485
