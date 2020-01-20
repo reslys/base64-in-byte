@@ -1,0 +1,16 @@
+{
+    "name": "@reslys/base64inbyte",
+    "version": "1.0.0",
+    "description": "Get base64 size in byte",
+    "license": "MIT",
+    "repository": "reslys/tiny",
+    "main": "index.js",
+    "keywords": [
+      "base64",
+      "npm",
+      "package",
+      "reslys",
+      "file size",
+      "byte"
+    ]
+  }
