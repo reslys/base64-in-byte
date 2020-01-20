@@ -1,4 +1,4 @@
-function formatBytes (bytes, decimals = 2) {
+module.exports = function formatBytes (bytes, decimals = 2) {
   if (bytes === 0) return '0 Bytes';
   const k = 1024;
   const dm = decimals < 0 ? 0 : decimals;
@@ -10,5 +10,5 @@ function formatBytes (bytes, decimals = 2) {
 module.exports = function b64inByte (base64) {
   var stringLength = base64.length - 'data:image/png;base64,'.length;
   var sizeInBytes = 4 * Math.ceil((stringLength / 3)) * 0.5624896334383812;
-  return formatBytes(sizeInBytes);
+  return sizeInBytes
 };
