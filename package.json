@@ -1,9 +1,10 @@
 {
     "name": "@reslys/base64inbyte",
+    "author": "Resly Suniar"
     "version": "1.0.0",
     "description": "Get base64 size in byte",
     "license": "MIT",
-    "repository": "reslys/tiny",
+    "repository": "reslys/base64-in-byte",
     "main": "index.js",
     "keywords": [
       "base64",
